@@ -1,6 +1,6 @@
 # colorbook
 
-> A Vue.js project
+> colorbook
 
 ## Build Setup
 
