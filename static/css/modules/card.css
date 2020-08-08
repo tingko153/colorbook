@@ -1,0 +1,82 @@
+/* card list */
+.card-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, auto));
+	column-gap: 2%;
+}
+.card-item {
+    position: relative;
+	margin-bottom: 5rem;
+	background: white;
+}
+.card-image {
+	height: 0;
+	padding-bottom: 75%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: lightgray;
+	background-size: cover;
+}
+.card-image img {
+	display: none;
+}
+.badge-wrap{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.card-item .badge-basic {
+    float: left;
+}
+.card-desc {
+	padding: 1em 0;
+}
+.card-desc .card-image-user{
+    position: absolute;
+    top:50%;
+    right:20px;
+    width: 64px;
+    height: 64px;
+    margin-top:15px;
+    border:3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: -9999px;
+    background-size: cover;
+}
+.card-desc .card-desc-tit{
+    line-height: 24px;
+    font-size: 16px;
+    color:#111;
+}
+.card-desc .card-desc-txt{
+    font-size: 13px;
+    color:#999;
+}
+.card-desc .card-desc-pay{
+    position: relative;
+    margin-top: 14px;
+    padding-top: 15px;
+    font-size: 14px;
+    color:#111;
+}
+.card-desc .card-desc-pay:after{
+    content:'';
+    clear: both;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:1px;
+    background-color: #f3f3f3;
+}
+.card-desc .card-desc-pay span{
+    font-size: 12px;
+    color:#999;
+}
+.card-desc .card-desc-tit span{
+    display: block;
+}
+

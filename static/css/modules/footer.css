@@ -1,0 +1,77 @@
+/*.layout.layout-base .list-footer {
+    padding: 18px 0;
+  }
+  .layout.layout-base .list-footer-action {
+    text-align: right;
+  }
+  .layout.layout-base .list-footer-center {
+    text-align: center;
+  }
+  .layout.layout-base .list-footer-center .module-inputset.search {
+    margin: 0 auto;
+  }
+  .layout.layout-base .list-footer-center .module-inputset.search .element-select {
+    width: 128px;
+    max-width: 128px;
+  }
+  .layout.layout-base .list-footer-center .module-inputset.search .input-wrap {
+    width: 321px;
+  }
+  */
+  
+  /* footer */
+  .layout-footer {
+    margin-top: 120px;
+    background-color: #f5f5f5;
+  }
+  .layout-footer .layout-footer-inner {
+    position: relative;
+    /*
+    width: 1920px;
+    width: 1367px;*/
+    width: 1328px;
+    margin:0 auto;
+    min-height: 354px;
+    background-color: #f5f5f5;
+  }
+  .layout-footer .footer-logo{
+    width: 153px;
+    height: 26px;
+    margin:62px 0 25px;
+    background: url(../../images/logo-dorothy.svg) no-repeat;
+    background-size: cover;
+  }
+  .layout-footer .footer-nav{
+    font-size: 14px;
+  
+  }
+  .layout-footer .footer-nav a{
+      margin:0 32px;
+      color:#666;
+    }
+  .layout-footer .footer-nav a:first-child{
+      margin-left: 0;
+  }
+  .layout-footer .footer-address {
+    margin-top:24px;
+    padding-top: 24px;
+    border-top:1px solid #ebebeb;
+    font-size: 12px;
+    line-height: 19px;
+    color:#999;
+  }
+  .layout-footer .footer-copy {
+    margin-top:24px;
+  }
+  .footer-sns{
+      position: absolute;
+      top:93px;
+      right:0;
+      float: right;
+  }
+  .footer-sns > li{
+    float: right;
+    margin-left: 16px;
+  }
+
+  

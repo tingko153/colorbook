@@ -1,0 +1,149 @@
+/* modal */
+/* dimmed */
+.module-dimmed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 999;
+  background: rgba(30, 30, 30, 0.6);
+}
+
+.module-dimmed .dimmed-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.module-dimmed .dimmed-top {
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.module-dimmed .dimmed-preview {
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 100px;
+}
+
+.module-dialog {
+  position: relative;
+  border: solid 1px #999;
+  border-radius: 4px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+.module-dialog.dialog-basic .dialog-container {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.module-dialog.dialog-size-sm {
+  width: 344px;
+}
+.module-dialog.dialog-size-md {
+  width: 440px;
+}
+.module-dialog.dialog-size-lg {
+  width: 656px;
+}
+.module-dialog.dialog-size-xlg {
+  width: 1143px;
+}
+
+.module-dialog.dialog-basic .dialog-header {
+  position: relative;
+}
+.module-dialog.dialog-basic .dialog-header .header-tit {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  padding: 16px 24px;
+  border-bottom: 1px solid #ddd;
+}
+.module-dialog.dialog-basic .dialog-header .dialog-close {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+.module-dialog.dialog-size-sm .dialog-header .dialog-close {
+  top: 10px !important;
+  right: 10px !important;
+}
+
+.module-dialog.dialog-basic .dialog-body {
+  position: relative;
+}
+
+.module-dialog.dialog-basic .dialog-footer {
+  position: relative;
+  padding: 0 24px 32px;
+}
+.module-dialog.dialog-basic .dialog-footer .footer-container {
+  padding: 24px 0 0;
+  text-align: center;
+}
+/*
+.module-dialog.dialog-basic .dialog-footer .footer-container .element-btn {
+  margin-bottom: 0;
+}
+.module-dialog.dialog-basic .dialog-footer .footer-contents {
+}
+.module-dialog.dialog-basic .dialog-footer .footer-contents .desc {
+  padding-top: 12px;
+  font-size: 13px;
+  color: #999;
+}
+.module-dialog.dialog-basic .dialog-footer .footer-contents .desc .point-link {
+  color: #627bba;
+  text-decoration: underline;
+}
+
+.module-dialog.dialog-basic .dialog-footer .footer-container + .footer-contents {
+  border-top: 1px solid #e4e4e4;
+  margin-top: 24px;
+}
+.module-dialog.dialog-basic .dialog-footer .footer-container .footer-check {
+  border-top: 1px solid #e4e4e4;
+  text-align: left;
+  margin-bottom: 24px;
+}
+ */
+/* dialog-content - type1*/
+.module-dialog.dialog-basic .dialog-body{
+  position: relative;
+}
+.dialog-body .dialog-content {
+  padding: 24px 24px 0;
+  font-size: 13px;
+}
+.dialog-body .dialog-content:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+.dialog-body .dialog-content.none-header-tit {
+  padding-top: 48px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.dialog-body .dialog-confim-tit{
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #333;
+}
+.dialog-body .dialog-confim-text {
+  line-height: 20px;
+  color: #333;
+}
+.dialog-body .dialog-confim-text > span{
+  display: block;
+}

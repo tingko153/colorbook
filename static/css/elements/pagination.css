@@ -1,0 +1,47 @@
+/*pagination*/
+.pagination {
+  display: table;
+  width: 100%;
+  padding: 15px 0 20px;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.pagination .element-icon {
+  vertical-align: middle;
+  margin: 0 2px;
+}
+.pagination .paginate-num {
+  display: inline-block;
+  padding: 0 18px;
+  vertical-align: middle;
+}
+.pagination a,
+.pagination .active {
+  position: relative;
+  display: inline-block;
+  line-height: 32px;
+  min-width: 32px;
+}
+.pagination a {
+  color: #333;
+}
+.pagination .active {
+  color: #ff5000;
+  font-weight: bold;
+}
+.pagination .active:after{
+  content: '';
+  clear: both;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color:#ff3950;
+  opacity: 0.1;
+}
+

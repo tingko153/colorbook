@@ -1,0 +1,328 @@
+/* textfield */
+.element-input.input-base {
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  line-height: 18px;
+}
+.element-input.input-base.base-sm {
+  height: 36px;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+}
+.element-input.input-base.base-lg {
+  height: 48px;
+  color: #333;
+  font-size: 14px;
+  line-height: 18px;
+}
+.element-input.input-base.base-square {
+  border-radius: 0;
+}
+.element-input.input-base.input-check {
+  border-color: #069fee !important;
+  background: #f4fbff !important;
+}
+.element-input.input-base.input-error {
+  border-color: #ff5000;
+  background: #fff5f1;
+}
+.element-input.input-base.input-disabled,
+.element-input.input-base.input-disabled:hover {
+  border:1px solid #ccc;
+  background: #e9e9e9;
+  color:#999;
+}
+
+/* select */
+.element-select.select-base {
+  display: inline-block;
+  position: relative;
+}
+.element-select.select-base.active {
+  z-index: 50;
+}
+.element-select.select-base.user-select img{
+  display: none;
+}
+.element-select.select-base.user-select .user-image{
+  position: relative;
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-left: 50px;
+}
+.element-select.select-base.user-select .user-image:after{
+  content: '';
+  clear: both;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top:50%;
+  left: -24px;
+  width: 1px;
+  height: 20px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.element-select.select-base.user-select .element-dropdown button:hover {
+  background-color: rgba(255, 57, 80, 0.1);
+  color:#ff3950;  
+}
+.element-select.select-base > .element-btn {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+.element-select.select-base.base-square .btn-select {
+  border-radius: 0;
+}
+.element-select.select-base select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.element-select.select-base .element-dropdown {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  right: 0;
+  max-height: 424px;
+  overflow-y: auto;
+}
+.element-select.select-base.user-select .element-dropdown {
+  left: initial;
+  left: inherit;
+  right: 0;
+  min-width: 140px;
+  line-height: 1;
+}
+.base-select-wrap .element-select.select-base.user-select{
+  width: 45px;
+}
+.element-select.select-base.base-sm .element-dropdown {
+  top: 35px;
+}
+.element-select.select-base.select-calendar .element-dropdown,
+.element-select.select-base.select-time .element-dropdown {
+  top: 31px;
+}
+.element-select.select-base.active .element-dropdown {
+  display: block;
+}
+.element-select.select-base .element-btn.size-48 ~ .element-dropdown {
+  top: 40px;
+}
+.element-select.select-base.base-sm .btn-select {
+  height: 36px;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+  font-weight: normal;
+  color: #333;
+}
+.element-select.select-base.base-sm .btn-select:after {
+}
+.element-select.select-base.base-sm .btn-select .btn-txt {
+  font-size: 13px;
+  line-height: 18px;
+}
+.element-select.select-base.select-calendar .btn-select {
+  min-width: 124px;
+  height: 32px;
+  padding: 1px 23px 1px 12px;
+}
+.element-select.select-base.select-calendar .element-btn .btn-txt {
+  font-size: 13px;
+  color: #333;
+}
+.element-select.select-base.select-calendar .element-btn.btn-select:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/svg/ic-calendar.svg);
+  background-size: cover;
+}
+.element-select.select-base.select-time .btn-select {
+  min-width: 180px;
+  height: 32px;
+  padding: 1px 23px 1px 12px;
+}
+.element-select.select-base.select-time .element-btn .btn-txt {
+  font-size: 13px;
+  color: #333;
+}
+
+/* checkbox */
+.element-checkbox {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: top;
+}
+.element-checkbox .checkbox-input {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+}
+.element-checkbox .checkbox-input ~ label {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  padding-left: 22px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+  cursor: pointer;
+  overflow: hidden;
+}
+.element-checkbox .checkbox-input ~ label:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-checkbox.svg) no-repeat;
+  background-size: cover;
+}
+.element-checkbox .checkbox-input:checked ~ label:before {
+  background: url(../../images/svg/ic-checkbox-active.svg) no-repeat;
+  background-size: cover;
+}
+.element-checkbox .checkbox-input:disabled ~ label:before {
+  background: url(../../images/svg/ic-checkbox-disabled.svg) no-repeat;
+  background-size: cover;
+}
+.element-checkbox .checkbox-input ~ label.blind {
+  padding-left: 20px;
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+}
+.element-checkbox.sm .checkbox-input {
+  width: 12px;
+  height: 12px;
+}
+.element-checkbox.sm .checkbox-input ~ label {
+  height: 16px;
+  padding-left: 18px;
+  font-size: 12px;
+  line-height: 17px;
+}
+.element-checkbox.sm .checkbox-input ~ label:before {
+  width: 12px;
+  height: 12px;
+}
+.element-checkbox.sm .checkbox-input ~ label.blind {
+  padding-left: 16px;
+  width: 16px;
+  height: 16px;
+}
+.element-checkbox.lg .checkbox-input {
+  width: 24px;
+  height: 24px;
+}
+.element-checkbox.lg .checkbox-input ~ label {
+  height: 27px;
+  padding-left: 42px;
+  font-size: 14px;
+  line-height: 26px;
+}
+.element-checkbox.lg .checkbox-input ~ label:before {
+  width: 24px;
+  height: 24px;
+}
+.element-checkbox.lg .checkbox-input ~ label.blind {
+  padding-left: 30px;
+  width: 24px;
+  height: 27px;
+}
+
+/* radio */
+.element-radio {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: top;
+}
+.element-radio .radio-input {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+}
+.element-radio .radio-input ~ label {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  padding-left: 22px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+  cursor: pointer;
+  overflow: hidden;
+}
+.element-radio .radio-input ~ label:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-radio.svg) no-repeat;
+  background-size: cover;
+}
+.element-radio .radio-input:checked ~ label:before {
+  background: url(../../images/svg/ic-radio-active.svg) no-repeat;
+  background-size: cover;
+}
+.element-radio .radio-input:disabled ~ label:before {
+  background: url(../../images/svg/ic-radio-disabled.svg) no-repeat;
+  background-size: cover;
+}
+.element-radio .radio-input ~ label.blind {
+  padding-left: 20px;
+  width: 20px;
+  height: 20px;
+  font-size: 0;
+}
+.element-radio.sm .radio-input {
+  width: 12px;
+  height: 12px;
+}
+.element-radio.sm .radio-input ~ label {
+  height: 16px;
+  padding-left: 18px;
+  font-size: 12px;
+  line-height: 17px;
+}
+.element-radio.sm .radio-input ~ label:before {
+  width: 12px;
+  height: 12px;
+}
+.element-radio.sm .radio-input ~ label.blind {
+  padding-left: 16px;
+  width: 16px;
+  height: 16px;
+}

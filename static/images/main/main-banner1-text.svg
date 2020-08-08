@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="462" height="170" viewBox="0 0 462 170">
+    <defs>
+        <filter id="prefix__a" width="114.2%" height="266.7%" x="-7.1%" y="-83.3%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.920318161 0 0 0 0 0.343891752 0 0 0 0 0.433724439 0 0 0 0.25 0"/>
+        </filter>
+        <text id="prefix__b" fill="#FFF" font-family="SDNemony-aBasic, Sandoll Nemony" font-size="54" font-weight="normal" letter-spacing="-1.5">
+            <tspan x="3" y="91">무제한 수강권 할인!</tspan>
+        </text>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0H183V30H0z" opacity=".85" transform="translate(17)"/>
+        <text fill="#E65F74" font-family="NanumSquareB, NanumSquare" font-size="18" font-weight="bold" letter-spacing="-.9" transform="translate(17)">
+            <tspan x="9" y="20">준비물 쇼핑몰 오픈 기념</tspan>
+        </text>
+        <text fill="#FFF" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="16" letter-spacing="-.8" transform="translate(17)">
+            <tspan x="0" y="141">쇼핑몰 오픈 기념으로 도로시에서 무제한 수강권을 할인합니다.</tspan> <tspan x="0" y="165">지금 바로 시작해보세요!</tspan>
+        </text>
+        <g fill="#FFF" transform="translate(17)">
+            <use filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+            <use xlink:href="#prefix__b"/>
+        </g>
+    </g>
+</svg>

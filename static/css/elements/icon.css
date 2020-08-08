@@ -1,0 +1,255 @@
+.element-icon {
+  display: inline-block;
+  overflow: hidden;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+/* LNB */
+
+/*icon*/
+.element-icon.ic-detail-link {
+  width: 20px;
+  height: 20px;
+  margin:0 -4px;
+  background: url(../../images/svg/ic-detail-link.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-close-round {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-close-round.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-search {
+  width: 20px;
+  height: 20px;
+  background: url(../../images/svg/ic-search.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-pw-view-on {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-view-on.svg) no-repeat ;
+  background-size: cover;
+}
+.element-icon.ic-pw-view-off {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-view-off.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-caution-circle {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-caution-circle.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-reload {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-reload.svg) no-repeat #dfdfdf;
+  background-size: cover;
+}
+.element-icon.ic-voice {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-voice.svg) no-repeat #dfdfdf;
+  background-size: cover;
+}
+.element-icon.ic-arrow-right-link {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-arrow-right-link.svg) no-repeat;
+  background-size: cover;
+}
+
+.element-icon.ic-kakao {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-kakao.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-naver {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-naver.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-google {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-google.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-kakao-app {
+  background-color:#fce812 ;
+  background-image: url(../../images/svg/ic-kakao.svg);
+  background-size: 21px auto;
+}
+.element-icon.ic-naver-app {
+  background-image: url(../../images/svg/ic-naver.svg);
+  background-size: cover;
+}
+.element-icon.ic-google-app {
+  background-image: url(../../images/svg/ic-google.svg);
+  background-size: cover;
+}
+.element-icon.ic-app-bg{
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-indent: -999999px;
+}
+.element-icon.ic-close-dialog {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-close-dialog.svg) no-repeat;
+}
+.element-icon.ic-creditcard {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-creditcard.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-bankbook {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-bankbook.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-creditcard-on {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-creditcard-on.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-bankbook-on {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-bankbook-on.svg) no-repeat;
+  background-size: cover;
+}
+
+.element-icon.ic-facebook-round {
+  width: 40px;
+  height: 40px;
+  background: url(../../images/svg/ic-facebook-round.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-twitter-round {
+  width: 40px;
+  height: 40px;
+  background: url(../../images/svg/ic-twitter-round.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-youtube-round {
+  width: 40px;
+  height: 40px;
+  background: url(../../images/svg/ic-youtube-round.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-logo-empty {
+  width: 42px;
+  height: 42px;
+  background: url(../../images/svg/img-logo-empty.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-fill-play-circle {
+  width: 24px;
+  height: 24px;
+  background: url(../../images/svg/ic-fill-play-circle.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-fill-play-circle.is-active{
+  background: url(../../images/svg/ic-fill-play-circle-active.svg) no-repeat;
+}
+.element-icon.ic-day {
+  background: url(../../images/svg/ic-day.svg) no-repeat;
+}
+.element-icon.ic-class-num {
+  background: url(../../images/svg/ic-class-num.svg) no-repeat;
+}
+.element-icon.ic-level {
+  background: url(../../images/svg/ic-level.svg) no-repeat;
+}
+.element-icon.ic-day,
+.element-icon.ic-class-num,
+.element-icon.ic-level{
+  width: 56px;
+  height: 56px;
+  background-size: cover;
+}
+
+/* 16px X 16px */
+.element-icon.ic-check-round.active {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-check-round-active.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-checkbox {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-checkbox.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-checkbox.active {
+  background: url(../../images/svg/ic-checkbox-active.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-checkbox.disabled {
+  background: url(../../images/svg/ic-checkbox-disabled.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-radio {
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-radio.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-radio.active {
+  background: url(../../images/svg/ic-radio-active.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-radio.disabled {
+  background: url(../../images/svg/ic-checkbox-disabled.svg) no-repeat;
+  background-size: cover;
+}
+
+/*pagination*/
+.element-icon.ic-pagination-prev {
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/svg/ic-pagination-prev.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-pagination-next {
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/svg/ic-pagination-next.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-pagination-prev.disabled,
+.element-icon.ic-pagination-prev.disabled:active {
+  background: url(../../images/svg/ic-pagination-prev-disabled.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-pagination-next.disabled,
+.element-icon.ic-pagination-next.disabled:active {
+  background: url(../../images/svg/ic-pagination-next-disabled.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-pagination-prev:active {
+  background: url(../../images/svg/ic-pagination-prev-active.svg) no-repeat;
+  background-size: cover;
+}
+.element-icon.ic-pagination-next:active {
+  background: url(../../images/svg/ic-pagination-next-active.svg) no-repeat;
+  background-size: cover;
+}

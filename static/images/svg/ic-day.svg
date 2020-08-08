@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <g fill="none" fill-rule="evenodd" transform="translate(5 5)">
+        <g stroke="#333" stroke-width="3" transform="translate(0 3)">
+            <rect width="44" height="36" x="1.5" y="1.5" rx="2"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M1.5 10.5L45.5 10.5"/>
+        </g>
+        <circle cx="41" cy="41" r="13" fill="#FFF"/>
+        <g transform="translate(9 21)">
+            <circle cx="32" cy="20" r="8.75" stroke="#333" stroke-width="2.5"/>
+            <path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M32 20.5l2.797 2.851M32 20.5v-4.925"/>
+            <rect width="4" height="4" fill="#333" rx="1.5"/>
+            <rect width="4" height="4" y="8" fill="#333" rx="1.5"/>
+            <rect width="4" height="4" x="8" fill="#333" rx="1.5"/>
+            <rect width="4" height="4" x="8" y="8" fill="#333" rx="1.5"/>
+            <rect width="4" height="4" x="16" fill="#333" rx="1.5"/>
+            <rect width="4" height="4" x="16" y="8" fill="#333" rx="1.5"/>
+            <rect width="4" height="4" x="24" fill="#333" rx="1.5"/>
+        </g>
+        <path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 9L13 0M34 9L34 0"/>
+    </g>
+</svg>
