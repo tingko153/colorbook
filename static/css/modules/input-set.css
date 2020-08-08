@@ -1,0 +1,291 @@
+.module-inputset.submit {
+  display: table;
+  table-layout: fixed;
+}
+.module-inputset.submit .element-btn:last-child {
+  margin-left: -1px;
+}
+.module-inputset.submit .input-wrap {
+  display: table-cell;
+  vertical-align: top;
+}
+.module-inputset .input-wrap .ic-caution-circle{
+  display: none;
+}
+.module-inputset .input-wrap .input-error ~ .input-wrap-ic .ic-caution-circle{
+  display: inline-block;  
+}
+.module-inputset.submit .element-btn {
+  display: table-cell;
+}
+.module-inputset.mem-wrap ~ .mem-wrap{
+  margin-top:8px;
+}
+.module-inputset .element-input.input-base::placeholder{
+  color: #ccc;
+}
+.module-inputset.search,
+.module-inputset.mem-wrap {
+  display: table;
+  position: relative;
+  table-layout: fixed;
+}
+.module-inputset.search:hover .element-select > .element-btn {
+  border-color: #999;
+}
+.module-inputset.search:hover .element-input {
+  border-color: #999;
+}
+.module-inputset.search .element-select,
+.module-inputset.mem-wrap .element-select {
+  display: table-cell;
+  vertical-align: top;
+}
+.module-inputset.search .input-wrap,
+.module-inputset.mem-wrap .input-wrap {
+  display: table-cell;
+  position: relative;
+}
+.module-inputset.mem-wrap,
+.module-inputset.mem-wrap .input-wrap{
+  width: 100%;
+}
+.module-inputset.search .input-wrap:last-child .element-input,
+.module-inputset.mem-wrap .input-wrap:last-child .element-input {
+  margin-left: -1px;
+}
+.module-inputset.search .element-input,
+.module-inputset.mem-wrap .element-input {
+  padding: 0 40px 0 16px;
+}
+.module-inputset.search .element-input.active,
+.module-inputset.mem-wrap .element-input.active {
+  padding: 0 68px 0 16px;
+}
+.module-inputset.search .element-input.active ~ .ic-close-round {
+  display: block;
+}
+.module-inputset.search .ic-close-round {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  margin-top: -8px;
+}
+.module-inputset.search .ic-search {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  margin-top: -10px;
+}
+.module-inputset.mem-wrap .input-wrap-ic,
+.module-inputset.submit-reaction-base .input-wrap-ic{
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  height: 24px;
+}
+.module-inputset.mem-wrap .input-wrap-ic .element-icon{
+  vertical-align: middle;
+  margin-top: -2px;;
+}
+
+/* submitReactionBasic */
+.module-inputset.submit-reaction-base {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+  border-collapse: separate;
+  box-sizing: border-box;
+}
+.mem-list-desc + .mem-list-desc,
+.mem-list-desc + .module-inputset.submit-reaction-base {
+  padding-top:12px;
+}
+.module-inputset.submit-reaction-base ~ .submit-reaction-base{
+  margin-top: 8px;
+}
+.module-inputset.submit-reaction-base .input-wrap {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  padding-right: 8px;
+}
+.module-inputset.submit-reaction-base .input-wrap .element-input.input-base.base-square {
+  height: 30px;
+  padding: 0 40px 0 16px;
+  border-radius: 4px;
+}
+.module-inputset.submit-reaction-base .input-wrap .element-icon.ic-close-round {
+  position: absolute;
+  top: 7px;
+  right: 16px;
+}
+.module-inputset.submit-reaction-base .btn-wrap {
+  display: table-cell;
+  width: 1%;
+  vertical-align: top;
+}
+.module-inputset.submit-reaction-base .btn-wrap .element-btn.btn-square {
+  white-space: nowrap;
+  height: 30px;
+  border-radius: 4px !important;
+  border: solid 1px #cccccc;
+  vertical-align: top;
+}
+.module-inputset.submit-reaction-base .btn-wrap .element-btn.btn-square .btn-txt {
+  font-size: 13px;
+  color: #666;
+  font-weight: normal;
+}
+
+/* submitReaction */
+.module-vote .vote-content {
+  padding: 26px 24px 0;
+}
+.module-inputset.submitReaction {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+  border-collapse: separate;
+  box-sizing: border-box;
+}
+.module-inputset.submitReaction .input-wrap {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  padding-right: 8px;
+}
+.module-inputset.submitReaction .input-wrap .element-input.input-base.base-square {
+  height: 30px;
+  padding: 0 40px 0 16px;
+  border-radius: 4px;
+}
+.module-inputset.submitReaction .input-wrap .element-icon.ic-close-round {
+  position: absolute;
+  top: 7px;
+  right: 16px;
+}
+.module-inputset.submitReaction .btn-wrap {
+  display: table-cell;
+  width: 1%;
+  vertical-align: top;
+}
+.module-inputset.submitReaction .btn-wrap .element-btn.btn-square {
+  white-space: nowrap;
+  height: 30px;
+  border-radius: 4px !important;
+  border: solid 1px #cccccc;
+  vertical-align: top;
+}
+.module-inputset.submitReaction .btn-wrap .element-btn.btn-square .btn-txt {
+  font-size: 13px;
+  color: #666;
+  font-weight: normal;
+}
+
+/* submitVoteReaction */
+.module-inputset.submitVoteReaction {
+  margin: 25px 0 0;
+}
+.module-inputset.submitVoteReaction .input-wrap .element-input.input-base.base-square {
+  height: 52px;
+  padding: 0 16px 0 16px;
+}
+.module-inputset.submitVoteReaction .input-wrap .element-icon.ic-close-round {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+}
+.module-inputset.submitVoteReaction .input-wrap .input-tit-color {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #999;
+  background-color: #f7f7f7;
+}
+.module-inputset.submitVoteReaction .input-wrap .input-tit-color::placeholder {
+  color: #999;
+}
+/* submitVoteCell */
+.module-inputset.submitVoteCell .btn-wrap {
+  vertical-align: middle;
+}
+.module-inputset.submitVoteCell .input-wrap .element-input.input-base.base-square {
+  height: 32px;
+}
+.module-inputset.submitVoteCell .input-wrap .element-icon.ic-image {
+  position: absolute;
+  top: 5px;
+  right: 49px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+}
+.module-inputset.submitVoteCell .input-wrap .element-icon.ic-vote {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+}
+.module-vote .create-vote-item {
+  margin-bottom: 12px;
+}
+.module-vote .create-vote-item .submitVoteCellLink {
+  position: relative;
+  padding-left: 30px;
+  margin-top: 12px;
+}
+.module-vote .create-vote-item .submitVoteCellLink:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/svg/ic-re-reply.svg) no-repeat;
+  opacity: 0.7;
+}
+.module-vote .create-vote-item .submitVoteCellLink .input-wrap {
+  width: 267px;
+}
+.module-vote .create-vote-item .element-icon.ic-plus {
+  display: inline-block;
+  vertical-align: middle;
+}
+.module-vote .create-vote-item .element-btn {
+  text-align: left;
+}
+.module-vote .create-vote-item .element-btn .btn-txt {
+  display: inline;
+}
+.module-vote .create-vote-item .element-icon {
+  margin-right: 0;
+}
+.module-vote .create-vote-option {
+  margin-top: 24px;
+  border-top: 1px solid #dfdfdf;
+}
+.module-vote .vote-option-content {
+  padding: 16px 24px 0;
+}
+.module-vote .full-select .element-select {
+  width: 100%;
+}
+.module-vote .vote-option-input .input-base {
+  display: inline-block;
+  width: auto;
+  font-size: 12px;
+  color: #666;
+}
+.module-vote .vote-option-input .vote-desc-txt {
+  font-size: 12px;
+  color: #666;
+}

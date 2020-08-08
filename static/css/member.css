@@ -1,0 +1,210 @@
+/*member*/
+.layout-container.subpage-member .module-inputset .btn-wrap{
+    min-width: 140px;
+  }
+  .mem-list{
+    margin-bottom: 93px;
+  }
+  .mem-list-tit{
+    margin-top:24px;
+    margin-bottom:8px;
+    font-size: 15px;
+    color:#111;
+  }
+  .mem-list-desc{
+    margin: 12px 0;
+    font-size: 12px;
+    color: #999;
+  }
+  .mem-list-tit.tit-line{
+    border-top: 1px solid rgba( 0, 0, 0, 0.2);
+  }
+  .mem-list .input-desc-txt{
+    margin-top:40px;
+    margin-bottom:8px;
+    font-size: 12px;
+    color:#333;
+  }
+  .mem-list .input-desc-txt > span{
+    display: block;
+  }
+  .mem-list .mem-captcha-wrap{
+    width: 100%;
+    float: left;
+    margin-bottom:16px;
+    
+  }
+  .mem-list .mem-captcha-wrap  > *{
+    float: left;
+  }
+  .mem-list .mem-captcha-wrap .btn-square{
+    width: calc(100% - 296px);
+    height: 50px;
+    text-align: left;
+  }
+  .mem-list .mem-captcha-wrap .btn-square:last-child{
+    margin-top: -1px;
+    height: 49px;
+  }
+  .input-error-txt{
+    font-size: 12px;
+    color:#ff3950;
+  }
+  .mem-list .element-btn,
+  .mem-list-btn .element-btn{
+    width: 100%;
+  }
+  .mem-list-btn .element-btn{
+    margin-bottom: 8px;
+  }
+  .mem-list .element-checkbox{
+    vertical-align: middle;
+  }
+  .mem-list .mem-log-list{
+    display: flex;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .mem-list .mem-log-list > a {
+    position: relative;
+    flex: 1;
+    display: inline-block;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+  }
+  .mem-list .mem-log-list > a:after{
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+    position: absolute;
+    top:50%;
+    right:0;
+    transform: translateY(-50%);
+    width: 1px;
+    height:20px;
+    background-color: #e5e5e5;
+  }
+  .mem-list .mem-log-list > a:last-child:after{
+    display: none;
+  }
+  .mem-list-btn{
+    margin-top:0px;
+    padding-top:32px;
+    border-top:1px solid #e5e5e5;
+  }
+  /*
+  .mem-agree-list ul{
+    margin-bottom: 6px;
+  }
+  .mem-agree-list li:first-child{
+    border-top:1px solid rgba( 0, 0, 0, 0.2);
+  }
+  .mem-agree-list li{
+    position: relative;
+    padding-left: 16px;
+    border-bottom:1px solid rgba( 0, 0, 0, 0.1);
+  }
+  .mem-agree-list li .element-checkbox{
+    line-height: 56px;
+  }
+  .mem-agree-list li .element-checkbox > *{
+    vertical-align: middle;
+  }
+  .mem-agree-list .element-btn{
+    width: 100%;
+    margin-top:24px;
+  }
+  .mem-agree-list .mem-agree-link{
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color:#666;
+    line-height: 16px;
+  }
+  */
+  .content-tab-wrap{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .content-tab-wrap:after{
+    content: '';
+    clear: both;
+    display: block;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #d0d0d0;
+  }
+  .content-tab-wrap > li{
+    position: relative;
+    width: 50%;
+    float: left;
+  }
+  .content-tab-wrap > li .tab-tit{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    color: #999;
+  }
+  .content-tab-wrap > li.tab-on .tab-tit{
+    color:#111;
+    font-weight: bold;
+  }
+  .content-tab-wrap > li.tab-on:after{
+    content: '';
+    clear: both;
+    display: block;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #111;
+    z-index: 1;
+  }
+  .social-login{
+    padding-bottom: 48px;
+    text-align: center;
+  }
+  .social-login .element-icon{
+    margin-bottom: 16px;
+  }
+  .social-login-desc{
+    font-size: 14px;
+    color:#333;
+  }
+  .social-login-desc>span{
+    display: block;
+  }
+  .tab-content-desc{
+    padding-bottom: 80px;
+    font-size: 14px;
+    color:#666;
+    text-align: center;
+  }
+  .tab-content-desc>span{
+    display: block;
+  }
+  
+  
+  
+  .layout-detail-tab-content>div{
+    /*display: none;*/
+    padding-bottom:72px;
+  }
+  .layout-detail-tab-content>div.is-active{
+    display: block;
+  }
+  
