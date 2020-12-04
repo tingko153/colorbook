@@ -6,13 +6,13 @@
           <router-link :to="{name: 'main'}">dorothy</router-link>
         </h1>
         <ul class="nav-list">
-            <li><router-link class="nav-list-link">스토리</router-link></li>
+            <li><router-link class="nav-list-link" :to="{name: 'login'}">스토리</router-link></li>
             <li><a class="nav-list-link" href="#">내강좌</a></li>
             <li><router-link class="nav-list-link" :to="{name: 'login'}">로그인</router-link></li>
             <li>
               <div class="element-select select-base base-square user-select active">
-                <figure class="user-image" style="background-image: url(/static/images/sample/card-list-sample.png)">
-                    <img src="/static/images/sample/card-list-sample.png" alt="">
+                <figure class="user-image" style="background-image: url(/src/assets/images/sample/card-list-sample.png)">
+                    <img src="/src/assets/images/sample/card-list-sample.png" alt="">
                 </figure>
                 <select name="">
                     <option value="">type1</option>
@@ -48,3 +48,5 @@ export default {
     }
 }
 </script>
+
+<style scoped src="@/assets/css/modules/gnb.css" />

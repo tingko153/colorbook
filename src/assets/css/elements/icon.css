@@ -49,13 +49,13 @@
 .element-icon.ic-reload {
   width: 24px;
   height: 24px;
-  background: url(../../images/svg/ic-reload.svg) no-repeat #dfdfdf;
+  /*background: url(../../images/svg/ic-reload.svg) no-repeat #dfdfdf;*/
   background-size: cover;
 }
 .element-icon.ic-voice {
   width: 24px;
   height: 24px;
-  background: url(../../images/svg/ic-voice.svg) no-repeat #dfdfdf;
+  /*background: url(../../images/svg/ic-voice.svg) no-repeat #dfdfdf;*/
   background-size: cover;
 }
 .element-icon.ic-arrow-right-link {
@@ -237,19 +237,19 @@
 }
 .element-icon.ic-pagination-prev.disabled,
 .element-icon.ic-pagination-prev.disabled:active {
-  background: url(../../images/svg/ic-pagination-prev-disabled.svg) no-repeat;
+  /*background: url(../../images/svg/ic-pagination-prev-disabled.svg) no-repeat;*/
   background-size: cover;
 }
 .element-icon.ic-pagination-next.disabled,
 .element-icon.ic-pagination-next.disabled:active {
-  background: url(../../images/svg/ic-pagination-next-disabled.svg) no-repeat;
+  /*background: url(../../images/svg/ic-pagination-next-disabled.svg) no-repeat;*/
   background-size: cover;
 }
 .element-icon.ic-pagination-prev:active {
-  background: url(../../images/svg/ic-pagination-prev-active.svg) no-repeat;
+  /*background: url(../../images/svg/ic-pagination-prev-active.svg) no-repeat;*/
   background-size: cover;
 }
 .element-icon.ic-pagination-next:active {
-  background: url(../../images/svg/ic-pagination-next-active.svg) no-repeat;
+  /*background: url(../../images/svg/ic-pagination-next-active.svg) no-repeat;*/
   background-size: cover;
 }

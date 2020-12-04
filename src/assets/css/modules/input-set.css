@@ -13,7 +13,7 @@
   display: none;
 }
 .module-inputset .input-wrap .input-error ~ .input-wrap-ic .ic-caution-circle{
-  display: inline-block;  
+  display: inline-block;
 }
 .module-inputset.submit .element-btn {
   display: table-cell;
@@ -250,7 +250,7 @@
   left: 8px;
   width: 16px;
   height: 16px;
-  background: url(../../images/svg/ic-re-reply.svg) no-repeat;
+  /*background: url(../../images/svg/ic-re-reply.svg) no-repeat;*/
   opacity: 0.7;
 }
 .module-vote .create-vote-item .submitVoteCellLink .input-wrap {

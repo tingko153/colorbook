@@ -31,6 +31,29 @@ export default new Router({
             path: '/find/password',
             name: 'findPassword',
             component: () => import('@/views/find/Password')
+        },
+        {
+            path: '/mypage',
+            name: 'mypage',
+            component: () => import('@/views/myPage/My')
+        },
+        {
+            path: '/coupon',
+            name: 'coupon',
+            component: () => import('@/views/coupon/Coupon')
+        },
+        {
+            path: '/faq',
+            name: 'faq',
+            component: () => import('@/views/faq/Faq')
+        },
+        {
+            path: '/detail/:id',
+            name: 'detail',
+            component: () => import('@/views/detail/Detail')
         }
-    ]
+    ],
+    scrollBehavior (to, from, savedPosition) {
+        return { x: 0, y: 0 }
+    }
 })

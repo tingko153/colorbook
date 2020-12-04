@@ -7,7 +7,7 @@
         <nav class="footer-nav">
             <a href="#">서비스이용약관</a>
             <a href="#"><strong>개인정보처리방침</strong></a>
-            <a href="#">FAQ</a>
+            <router-link :to="{name: 'faq'}">FAQ</router-link>
         </nav>
         <div class="footer-address">
           <p>
@@ -40,3 +40,5 @@ export default {
     name: 'Footer'
 }
 </script>
+
+<style scoped src="@/assets/css/modules/footer.css" />
